@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "types": ["@playwright/test"]
+  },
+  "include": ["vite.config.ts", "playwright.config.ts", "tests"]
+}
